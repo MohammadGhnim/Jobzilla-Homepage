@@ -182,3 +182,21 @@ label{
     border: none;
     color: #212529;
 }
+.site-button{
+    display: block;
+    width: 100%;
+    padding: 15px 8px;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s ease !important;
+}
+.site-button:hover {
+    text-shadow: -400px 0 0 #fff, 0 0 0 #fff;
+    background-color: #171d28;
+}
+.form-group{
+    margin-bottom: 30px;
+}
