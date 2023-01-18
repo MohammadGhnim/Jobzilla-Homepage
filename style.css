@@ -109,7 +109,7 @@ div {
 }
 .bnr-section{
     position: relative;
-    padding-top: 240px;
+    padding-top: 110px;
     overflow: hidden;
 }
 .bnr-title-large{
@@ -214,4 +214,8 @@ a {
 .bnr-popular-search{
     position: relative;
     margin-top: 30px;
+}
+.bnr-img{
+    margin-left: 100px;
+    width: auto;
 }
