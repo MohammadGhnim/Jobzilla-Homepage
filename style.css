@@ -156,8 +156,12 @@ label{
 .width{
     width: 25%;
 }
+.input-icon-box{
+    position: relative;
+}
 .input-icon{
     position: absolute;
+    display: inline-block;
     right: 0;
     top: 0;
     width: 20px;
@@ -166,6 +170,7 @@ label{
     line-height: 34px;
     text-align: center;
     font-size: 18px;
+
 }
 .form-control1{
     padding-right: 40px;
@@ -175,5 +180,5 @@ label{
     padding: 0px;
     font-weight: 500;
     border: none;
-    color: red;
+    color: #212529;
 }
