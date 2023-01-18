@@ -200,3 +200,18 @@ label{
 .form-group{
     margin-bottom: 30px;
 }
+a {
+    color: #17171d;
+    outline: 0px none;
+    text-decoration: none;
+}
+.span-title{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.bnr-popular-search{
+    position: relative;
+    margin-top: 30px;
+}
