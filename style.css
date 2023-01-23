@@ -517,3 +517,34 @@ h4{
 .site-button2:hover{
     text-shadow: -400px 0 0 #1967d2, 0 0 0 #1967d2;
 }
+.tc-small-title{
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    color: #1967d2;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.center {
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.owl-stage-outer1{
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin-bottom: 120px;
+    display: flex;
+}
+.owl-outer-a {
+    width: 166px;
+    margin-right: 30px;
+}
+.owl-outer-a img{
+    height: 100%;
+}
