@@ -1,3 +1,13 @@
+.bg-header{
+    background-color: transparent;
+}
+.header-style-3{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+}
 .main-bar {
     position: relative;
     width: 100%;
@@ -7,7 +17,11 @@
     max-width: 1146px;
     left: 50%;
     transform: translateX(-50%);
-    
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgb(56 152 226 / 30%);
+}
+.is-fixed{
+    position: fixed;
 }
 .container-fluid{
     display: flex;
