@@ -262,7 +262,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-.container{
+.container {
     max-width: 1170px;
 }
 .pt-120{
@@ -329,4 +329,131 @@ h4{
 }
 .bg-clr-green{
     background-color: #56d8b1;
+}
+.jc-small-title{
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    color: #1967d2;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.jc-large-title {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.section-head{
+    text-align: left;
+}
+.jc-row{
+    align-items: center;
+    justify-content: left;
+}
+.col-xl-5{
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.jc-area{
+    background-color: #f9fcff;
+}
+.owl-stage-outer{
+    display: table;
+    position: relative;
+    padding: 30px 0px 30px 10px;
+    overflow: hidden;
+    width: max-content;
+}
+.item{
+    box-shadow: 0px 0px 25px rgb(56 152 226 / 30%);
+    border-radius: 10px;
+}
+.owl-left {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #1967d2;
+    color: #fff;
+    padding: 0px !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 1;
+    margin-right: 5px;
+    font-weight: 500;
+    box-shadow: 0px 0px 30px rgb(56 152 226 / 30%);
+    border: none;
+}
+.owl-left:hover{
+    background-color:  #fff;
+    color: #1967d2;
+    opacity: 0.9;
+}
+.owl-right{
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #1967d2;
+    color: #fff;
+    padding: 0px !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 1;
+    margin-right: 5px;
+    font-weight: 500;
+    box-shadow: 0px 0px 30px rgb(56 152 226 / 30%);
+    border: none;
+}
+.owl-right:hover{
+    background-color:  #fff;
+    color: #1967d2;
+    opacity: 0.9;
+}
+.owl-nav{
+    margin-top: 40px;
+    text-align: left;
+    position: absolute;
+}
+.site-button1{
+    outline: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-table;
+    background-color: #1967d2;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s all ease;
+
+    color: rgba(0, 0, 0, 0) !important;
+    transition: all 0.3s ease !important;
+    text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
+}
+.site-button1:hover {
+    text-shadow: -400px 0 0 #fff, 0 0 0 #fff;
+    background-color: #171d28;
+}
+.text-right{
+    text-align: right;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.job-categories-section{
+    margin-bottom: 30px;
 }
