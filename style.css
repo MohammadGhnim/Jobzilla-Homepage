@@ -186,16 +186,21 @@ label{
     display: block;
     width: 100%;
     padding: 15px 8px;
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
     font-size: 16px;
     font-weight: 600;
     border-radius: 10px;
+}
+.site-button {
+    color: rgba(0, 0, 0, 0) !important;
     transition: all 0.3s ease !important;
+    text-shadow: 0 0 0 #fff, 400px 0 0 transparent;
 }
 .site-button:hover {
-    text-shadow: -400px 0 0 #fff, 0 0 0 #fff;
+    text-shadow: -400px 0 0  #fff, 0 0 0 #fff;
     background-color: #171d28;
+}
+.site-button:hover {
+    color: #000;
 }
 .form-group{
     margin-bottom: 30px;
@@ -218,4 +223,96 @@ a {
 .bnr-img{
     margin-left: 100px;
     width: auto;
+}
+h6 {
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    color: #1967d2;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+}
+h2{
+    max-width: 650px;
+    margin: 0px auto;
+    font-size: 46px;
+    font-weight: 500;
+    color: #17171d;
+}
+.section-head{
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    max-width: 1170px;
+}
+.pt-120{
+    padding-top: 120px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+.large-number{
+    color: #efefef;
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.hiw-media{
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    width: 90px;
+    height: 95px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: -5px 10px 25px rgb(56 152 226 / 40%);
+}
+.hiw-pro-top{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.bg-clr-sky{
+    background-color: #3898e2;
+}
+.hiw-title{
+    color: #fff;
+    padding-left: 80px;
+    margin-bottom: 0px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.hiw-process-steps{
+    padding-left: 80px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.col-xl-4{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.bg-clr-pink{
+    background-color: #bc84ca;
+}
+.bg-clr-green{
+    background-color: #56d8b1;
 }
