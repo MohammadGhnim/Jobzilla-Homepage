@@ -548,3 +548,43 @@ h4{
 .owl-outer-a img{
     height: 100%;
 }
+.counter{
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+.icon-content-info{
+    color: #17171d;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.count-number{
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+}
+.text-clr-sky{
+    color: #3898e2;
+}
+.col-lg-4{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.twm-company-approach{
+    max-width: 650px;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 10%) inset;
+    position: relative;
+    z-index: 1;
+}
+.text-clr-pink{
+    color: #bc84ca;
+}
+.text-clr-green{
+    color: #56d8b1;
+}
