@@ -246,18 +246,25 @@ h6 {
     color: #1967d2;
     font-size: 18px;
     line-height: 40px;
-    font-weight: 500;
+    font-weight: 600;
 }
 h2{
     max-width: 650px;
     margin: 0px auto;
     font-size: 46px;
-    font-weight: 500;
+    font-weight: 650;
     color: #17171d;
 }
 .section-head{
     margin-bottom: 50px;
     text-align: center;
+    max-width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-head1{
+    margin-bottom: 50px;
+    text-align: left;
     max-width: 645px;
     margin-left: auto;
     margin-right: auto;
@@ -345,9 +352,7 @@ h4{
     font-weight: 600;
     margin-bottom: 35px;
 }
-.section-head{
-    text-align: left;
-}
+
 .jc-row{
     align-items: center;
     justify-content: left;
@@ -439,7 +444,6 @@ h4{
     font-size: 16px;
     font-weight: 600;
     transition: 0.5s all ease;
-
     color: rgba(0, 0, 0, 0) !important;
     transition: all 0.3s ease !important;
     text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
@@ -588,3 +592,96 @@ h4{
 .text-clr-green{
     color: #56d8b1;
 }
+.site-bg-light-purple{
+    background-color: #f0f6fe;
+}
+.job-post-duration{
+    color: #2db346;
+    font-size: 14px;
+}
+.media{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgb(56 152 226 / 30%);
+    margin-right: 40px;
+    position: absolute;
+    bottom: -20px;
+    line-height: 150px;
+    overflow: hidden;
+}
+.mid-content{
+    padding-left: 180px;
+}
+.jobs-brows{
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+}
+.jobs-amount{
+    font-weight: 500;
+    color: #17171d;
+    margin: 20px 0px 10px 0px;
+    font-size: 14px;
+}
+.jobs-amount span{
+    color: #046c38;
+}
+.bg-green{
+    background-color: #2db346;
+}
+.jobs-category span{
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 12px;
+    white-space: nowrap;
+}
+.right-content{
+    text-align: right;
+    width: 178px;
+}
+.jobs-list-style{
+    background-color: #fff;
+    border: 10px;
+    box-shadow: 0px 0px 25px rgb(56 152 226 / 30%);
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.mb-5{
+    margin-bottom: 3rem;
+}
+.jobs-list-wrap{
+    max-width: 910px;
+    margin: 0px auto;
+}
+.jobs-list-wrap ul li{
+    list-style: none;
+}
+.bg-brown{
+    background-color: #b3692d;
+}
+.bg-purple{
+    background-color: #8883ec;
+}
+.bg-sky{
+    background-color: #2d9bb3;
+}
+.bg-golden{
+    background-color: #b7912a;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+/*.twm-company-approach-outer{
+    position: relative;
+    z-index: 1;
+}
+*/
