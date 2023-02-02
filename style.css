@@ -721,7 +721,7 @@ h4{
     color: #fff;
     font-size: 14px;
     line-height: 28px;
-    padding: 5px 15px 5px 0px;
+    padding: 5px 15px 5px 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-right: 10px;
@@ -731,6 +731,7 @@ h4{
 .post-meta ul{
     list-style: none;
     margin-bottom: 0px;
+    padding-left: unset;
 }
 .post-meta{
     position: relative;
